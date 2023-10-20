@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://dforfyvba42k6"]
+
+[ext_resource type="Script" path="res://Interactable/interact_generic.gd" id="1_n0b5q"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_baiw2"]
+
+[node name="Interact_generic" type="Area3D" groups=["Interactable"]]
+script = ExtResource("1_n0b5q")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_baiw2")

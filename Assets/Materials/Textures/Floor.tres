@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://d4i71foo3mhyb"]
+
+[ext_resource type="Texture2D" uid="uid://cev2ni4ki1lyh" path="res://Assets/Materials/Textures/Wood_18-128x128.png" id="1_0e2yq"]
+
+[resource]
+albedo_color = Color(0.776471, 0.776471, 0.776471, 1)
+albedo_texture = ExtResource("1_0e2yq")
+uv1_scale = Vector3(0.15, 0.15, 0.15)
+uv1_triplanar = true
+uv1_world_triplanar = true
+texture_filter = 0

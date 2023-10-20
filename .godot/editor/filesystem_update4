@@ -1,0 +1,8 @@
+res://default_env.tres
+res://Maps/Level1.tscn
+res://Assets/Materials/Textures/wood.tres
+res://Assets/Materials/Textures/Floor.tres
+res://Player/Player.tscn
+res://Interactable/door.tscn
+res://Interactable/key.tscn
+res://Interactable/door.gd

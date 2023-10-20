@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://dxqic4tpdrsel"]
+
+[ext_resource type="Script" path="res://Interactable/key.gd" id="1_ucxqm"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_6hgap"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_x3uqg"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_hakij"]
+
+[node name="key" type="Area3D" groups=["Interactable"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.25, 0, 0)
+script = ExtResource("1_ucxqm")
+
+[node name="key" type="StaticBody3D" parent="." groups=["Interactable"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="key"]
+shape = SubResource("CapsuleShape3D_6hgap")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="key"]
+mesh = SubResource("CapsuleMesh_x3uqg")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1.2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 1, 0)
+shape = SubResource("BoxShape3D_hakij")

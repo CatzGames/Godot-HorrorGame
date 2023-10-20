@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=3 uid="uid://bxbbtnr314ous"]
+
+[ext_resource type="PackedScene" uid="uid://dforfyvba42k6" path="res://Interactable/interact_generic.tscn" id="1_kal5b"]
+[ext_resource type="Script" path="res://Interactable/cube_interactable.gd" id="2_jfwhw"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_asoaw"]
+
+[node name="CubeInteractable" instance=ExtResource("1_kal5b")]
+script = ExtResource("2_jfwhw")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." index="1"]
+mesh = SubResource("BoxMesh_asoaw")
+skeleton = NodePath("../CollisionShape3D")
