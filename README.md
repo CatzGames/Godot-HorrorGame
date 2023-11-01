@@ -13,20 +13,20 @@
 - [ ] ウィンドウの解像度
 - [ ] メインメニューの作成
 - [ ] ダイアログ
-- [ ] 物のモデルの作成
-- [ ] VHSシェーダー
+- [x] 物のモデルの作成
+- [x] VHSシェーダー
 - [x] カメラの動き
 - [x] ダッシュ
 - [x] 歩行
 - [x] 足音
 
-| Left align | Right align | Center align |
-|:-----------|------------:|:------------:|
-| This       |        This |     This     |
-| column     |      column |    column    |
-| will       |        will |     will     |
-| be         |          be |      be      |
-| left       |       right |    center    |
-| aligned    |     aligned |   aligned    |
+| がんばれおれ |
+|:------------:|
+|     This     |
+|    column    |
+|     will     |
+|      be      |
+|    center    |
+|   aligned    |
 
 ついでにmdの記述も学びます
